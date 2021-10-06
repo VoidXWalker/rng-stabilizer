@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "rngstabilizer",
+  "version": "1.0.0",
+  "name": "rng-stabilizer",
+  "description": "Speedrun-related loot table enhancements",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contact": {
+    "repo": "https://github.com/VoidXWalker/setspeed-norng",
+    "discord": "https://discord.com/channels/869998042051391548/870252239346868295/888841721667006544"
+  },
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.voidxwalker.rngstabilizer.Main"
+    ]
+  },
+  "mixins": [
+    "rngstabilizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
